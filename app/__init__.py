@@ -6,3 +6,7 @@ app = Flask(__name__)
 def homepage():
     return render_template("index.html")
 
+
+@app.rout("/contatos")
+def contatos():
+    return "Lista de Contatos"
