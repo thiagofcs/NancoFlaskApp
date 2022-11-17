@@ -1,12 +1,7 @@
-from flask import Flask, render_template
+from flask import Flask
+from config import Config
 
 app = Flask(__name__)
+app.config.from_object(Config)
 
-@app.route("/")
-def homepage():
-    return render_template("index.html")
-
-
-@app.route("/contatos")
-def contatos():
-    return "Lista de Contatos"
+from app import routes
