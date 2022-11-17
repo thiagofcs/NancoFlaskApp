@@ -7,6 +7,6 @@ def homepage():
     return render_template("index.html")
 
 
-@app.rout("/contatos")
+@app.route("/contatos")
 def contatos():
     return "Lista de Contatos"
