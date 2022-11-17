@@ -1,0 +1,2 @@
+Flask Tutorial in Visual Studio Code
+https://code.visualstudio.com/docs/python/tutorial-flask#:~:text=Create%20and%20run%20a%20minimal%20Flask%20app%20%23,instance%20of%20the%20Flask%20object.%20...%20Mais%20itens
